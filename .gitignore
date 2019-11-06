@@ -1,0 +1,5 @@
+# Ignore phpstorm configs
+.idea
+.idea/*
+
+.DS_Store
