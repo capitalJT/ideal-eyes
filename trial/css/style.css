@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('reset.css');
+
+
+body{color:#111111; line-height:1.2em; font-family:"Century Gothic", Helvetica, sans-serif; font-size:14px;}
+span.hel{font-family:Arial, Helvetica, sans-serif;}
+a{color:#D96D00;}
+
+#container{margin:auto; padding:15px 30px 0; width:980px; background:#fff; border-top:2px solid #011F42;} 
+.main_content{margin:0px 0 10px 0;}
+
+
+.logo{width:400px; height:95px; background:url('../images/logo.png') no-repeat; margin:auto; padding-bottom:10px;}
+
+/*NAVIGATION BAR*/
+.nav{margin-left:100px; padding-bottom:15px;}
+.nav ul{list-style-type:none; zoom:1; overflow:hidden;}
+.nav li{display:inline; padding:10px 5px 5px 10px; margin:auto; float:left; font-size:16px;}
+.nav li a{text-decoration:none; color:#111; overflow:hidden; padding:0 5px;}
+.nav li a:hover{background:#111; color:#D29F00; padding:7px 5px; border-radius:3px;}
+.nav li a.active{background:#111; color:#fff; padding:7px 5px; border-radius:3px;}
+
+/*ANNOUNCEMENTS SECTION*/
+.announcements{text-align:center; margin:auto; width:60%; padding-bottom:15px; font-size:16px; line-height:1.2em;}
+
+/*HOME PAGE IMAGE*/
+.image{margin:auto; width:500px; overflow:hidden;}
+.image p{padding-bottom:5px;}
+
+/*CONTENT*/
+.services_content li{display:inline; padding-right:12px; text-align:center;}
+.services_content{width:75%; margin:auto; padding:10px 0 10px 30px; line-height:1.2em; font-size:16px; text-align:center;} 
+
+.doctor_content li{list-style-type:disc; padding-bottom:5px;}
+.title{font-weight:bold; padding:0 0 10px 0; font-size:1.15em;}
+
+.hours{padding:12px 0 0 0;}
+.hours li{padding:3px 0;}
+
+
+/*FOOTER*/
+footer{padding:0px 0 30px 0; width:980px; margin:auto; letter-spacing:.2em; line-height:1.5em; text-align:center; font-size:12px;}
+footer a{text-decoration:none; border:none;}
+.copyright{font-size:11px; letter-spacing:0; padding:5px 0;}
+/*misc properties*/
+
+.clear{clear:both;}
+.clear_right{clear:right;}
+.clear-left{clear:left;}
+
+.divider{border-bottom:2px solid #111; padding:0px 0 7px;}
+.divider_right{border-right:1px solid #111; margin:0 30px 0 30px;}
