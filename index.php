@@ -44,14 +44,7 @@
 
             <div class="main_content">
                 <!--begin announcements-->
-                <section class="announcements">
-                    We will be closed from July 4 to 6, 2019.</br>
-                    We will reopen on Tuesday July 9, 2019.</br>
-                    Happy Independence Day!.</br>
-                    <!--Thank you OpenCare for ranking us <br/>as a top care provider in <a href="https://www.opencare.com/optometrists/burlingame-ca/#tc24630375116">Burlingame Optometrist</a><br>
-                    <span style="color: #777">Verified by</span>
-                    <a href="https://www.opencare.com" style="color: #777">Opencare.com</a> -->
-                </section>
+                <section class="announcements"></section>
                 <!--end announcements-->
 
                 <div class="image">
