@@ -1,15 +1,14 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>Ideal Eyes Optometry</title>
-
-<!--CSS-->
-<link rel="stylesheet" href="css/style.css">
-
-<!--JS-->
-<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151907048-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-151907048-1');
+        </script>
 
 <script>
 
@@ -22,7 +21,17 @@ $(document).ready(function(e) {
 </script>
 
 
-</head>
+            <div class="main_content">
+                <!--begin announcements-->
+                <section class="announcements">
+                    We will be closed from July 4 to 6, 2019.</br>
+                    We will reopen on Tuesday July 9, 2019.</br>
+                    Happy Independence Day!.</br>
+                    <!--Thank you OpenCare for ranking us <br/>as a top care provider in <a href="https://www.opencare.com/optometrists/burlingame-ca/#tc24630375116">Burlingame Optometrist</a><br>
+                    <span style="color: #777">Verified by</span>
+                    <a href="https://www.opencare.com" style="color: #777">Opencare.com</a> -->
+                </section>
+                <!--end announcements-->
 
 <body>
 
