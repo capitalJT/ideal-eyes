@@ -1,14 +1,12 @@
 <!doctype html>
 <html>
     <head>
-
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151907048-1"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-
             gtag('config', 'UA-151907048-1');
         </script>
 
@@ -53,7 +51,8 @@
                     <!--Thank you OpenCare for ranking us <br/>as a top care provider in <a href="https://www.opencare.com/optometrists/burlingame-ca/#tc24630375116">Burlingame Optometrist</a><br>
                     <span style="color: #777">Verified by</span>
                     <a href="https://www.opencare.com" style="color: #777">Opencare.com</a> -->
-                </section><!--end announcements-->
+                </section>
+                <!--end announcements-->
 
                 <div class="image">
                     <img src="images/home.jpg"/>
