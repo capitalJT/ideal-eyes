@@ -1,0 +1,29 @@
+/* NAVIGATION BAR */
+.nav {
+  //background-color: pink;
+  text-align: center;
+  ul{
+    list-style-type: none;
+  }
+  li{
+    padding: 5px 10px;
+    margin:auto;
+    font-size:16px;
+    display: inline-block;
+  }
+  a{
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+}
+
+.nav li.active{
+  background: #111;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.nav li.active a{
+  color: white;
+}
+
