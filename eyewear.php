@@ -20,9 +20,9 @@
                 </div>
                 <!-- end home_image -->
 
-                <div>
+                <div class="text-center">
                     <h3 class="mb-3">All of our frames are hand selected to provide our patients with a wide variety of styles and price points.</h3>
-                    <p class="mb-0">Some of the designers we carry:</p>
+                    <p class="mb-0 font-weight-bold">Some of the designers we carry:</p>
                     <ul class="list-unstyled">
                         <li>Bottega Veneta</li>
                         <li>Celine</li>
@@ -39,8 +39,8 @@
                         <li>Zero G</li>
                     </ul>
                     <div class="text-center">
-                        <img src="images/Instagram_Icon_Small.jpg">
-                        <p class="title">Check out our Instagram page @idealeyesoptometry </br>for the latest styles and new arrivals</p>
+                        <img src="images/Instagram_Icon_Small.jpg" alt="Instagram Logo">
+                        <p class="title">Check out our Instagram page <a href="https://www.instagram.com/idealeyesoptometry/" target="_blank">@idealeyesoptometry</a></br>for the latest styles and new arrivals</p>
                     </div>
                 </div>
             </div>

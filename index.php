@@ -19,17 +19,16 @@
                 <!-- end announcements -->
 
                 <!-- start home_image -->
-                <div class="image">
+                <div class="image mb-4">
                     <img class="d-block mx-auto" src="images/home.jpg" alt="homepage image" />
                 </div>
                 <!-- end home_image -->
-
             </div>
             <!-- end main_content -->
 
         </div>
         <!-- end container -->
 
-        <?php include("includes/footer.php");?>
+        <?php include("includes/footer.php"); ?>
     </body>
 </html>

@@ -7,8 +7,7 @@
                     <div class="d-inline-block divider_right">phone: <a href="tel:650-347-2200">650-347-2200</a></div>
                     <div class="d-inline-block divider_right">fax: 650-347-2210</div>
                     <div class="d-inline-block divider_right">email: <a href="mailto:idealeyesoptometry@gmail.com?Subject=Hello%20there">idealeyesoptometry@gmail.com</a></div>
-                    <div class="d-inline-block divider_right">1403 Burlingame ave </div>
-                    <div class="d-inline-block ">next to Asian Box</div>
+                    <div class="d-inline-block">address: <a href="https://goo.gl/maps/EJ8wRSkKamnimZNo9" target="_blank">1403 Burlingame Ave, Burlingame, CA 94010</a></div>
                 </div>
             </div>
             <div class="col-12">
@@ -23,5 +22,4 @@
         </div>
     </div>
 </footer>
-
 <!-- end footer -->

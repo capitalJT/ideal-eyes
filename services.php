@@ -12,8 +12,8 @@
 	        <?php include("includes/navigation.php");?>
 
             <div class="main_content">
-                <div class="image">
-                    <img class="d-block mx-auto" src="images/service.jpg"/>
+                <div class="image mb-3">
+                    <img class="d-block mx-auto" src="images/service.jpg" alt="service image" />
                 </div><!--end image-->
 
                 <ul class="services_content">
