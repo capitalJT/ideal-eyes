@@ -1,5 +1,5 @@
-<div class="nav">
-	<ul>
+<div class="nav text-center mb-4">
+	<ul class="m-0">
 		<li class="<?php echo ($CURRENT_PAGE == "Index" ? "active" : "")?>"> <a href="index.php">Home</a></li>
 		<li class="<?php echo ($CURRENT_PAGE == "Services" ? "active" : "")?>"> <a href="services.php">Services</a></li>
 		<li class="<?php echo ($CURRENT_PAGE == "Doctor" ? "active" : "")?>"> <a href="doctor.php">Doctor</a></li>
