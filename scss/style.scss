@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+// https://sass-guidelin.es/#architecture
+
+@import "abstracts/variables";
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/placeholders";
+
+//@import "base/reset";
+@import "base/typography";
+
+@import "layout/header";
+@import "layout/navigation";
+@import "layout/footer";
+
+#container{
+  margin:auto;
+  padding:40px 30px 0;
+  width:100%;
+  max-width:980px;
+  //border: solid thin red;
+  background:#fff;
+}
+
+.main_content{
+  margin: 20px 0;
+}
+
+.logo{
+  text-align: center;
+  a {
+    display: inline-block;
+    //margin: 0 auto;
+    //border: solid thin blue;
+  }
+  img{
+    //border: solid thin red;
+    margin: 0 auto;
+  }
+}
+
+/* ANNOUNCEMENTS SECTION */
+.announcements{
+  text-align:center;
+  margin:auto;
+  width:60%;
+  padding-bottom:20px;
+  font-size:16px;
+  line-height:1.2em;
+}
+
+/* HOME PAGE IMAGE */
+.image{
+  //margin:auto;
+  //width:500px;
+  //overflow:hidden;
+  //border: solid thin green;
+}
+
+//.image p{
+//  padding-bottom:5px;
+//}
+
+.map{
+  margin:auto;
+  width:800px;
+  overflow:hidden;
+}
+
+/* CONTENT */
+.services_content li{
+  display:inline;
+  padding-right:12px;
+  text-align:center;
+}
+
+.services_content{
+  width:75%;
+  margin:auto;
+  padding:10px 0 10px 30px;
+  line-height:1.2em;
+  font-size:16px;
+  text-align:center;
+}
+
+.doctor_content li{
+  list-style-type:disc;
+  padding-bottom:5px;
+}
+
+
+.hours li{
+  padding:3px 0;
+}
+
+/* misc properties */
+
+.clear{
+  clear:both;
+}
+
+.clear_right{
+  clear:right;
+}
+
+.clear-left{
+  clear:left;
+}
+
+.divider{
+  border-bottom:2px solid #111;
+  padding:15px 0;
+}

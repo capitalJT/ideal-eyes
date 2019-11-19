@@ -43,9 +43,7 @@
                     </ul>
                     <p>We are available 7 days a week via email appointment requests and insurance questions.</p>
                 </div>
-
             </div>
-            <!-- end main_content -->
         </div>
         <!-- end container -->
         <?php include("includes/footer.php");?>

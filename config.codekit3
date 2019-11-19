@@ -23,25 +23,13 @@
 		"oAP": "/build/.idea",
 		"oF": 0
 		},
-	"/css/reset-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
+	"/contact.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "/css/reset-min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/css/reset.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/css/reset-min.css",
-		"oF": 0,
-		"oS": 3
+		"oAP": "/contact.php",
+		"oF": 0
 		},
 	"/css/style.css": {
 		"aP": 1,
@@ -52,6 +40,22 @@
 		"oAP": "/css/style-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"/doctor.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/doctor.php",
+		"oF": 0
+		},
+	"/eyewear.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/eyewear.php",
+		"oF": 0
 		},
 	"/favicon.ico": {
 		"cB": 0,
@@ -261,6 +265,22 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"/includes/a_config.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/includes/a_config.php",
+		"oF": 0
+		},
+	"/includes/footer.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/includes/footer.php",
+		"oF": 0
+		},
 	"/includes/head-tag-contents.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -277,6 +297,30 @@
 		"oAP": "/includes/header.php",
 		"oF": 0
 		},
+	"/includes/navigation.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/includes/navigation.php",
+		"oF": 0
+		},
+	"/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/index.php",
+		"oF": 0
+		},
+	"/location.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/location.php",
+		"oF": 0
+		},
 	"/parking.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -284,6 +328,71 @@
 		"oA": 0,
 		"oAP": "/parking.php",
 		"oF": 0
+		},
+	"/scss/abstracts/_functions.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_functions.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
+		},
+	"/scss/abstracts/_mixins.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_mixins.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
+		},
+	"/scss/abstracts/_placeholders.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_placeholders.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
+		},
+	"/scss/abstracts/_variables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_variables.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
+		},
+	"/scss/base/_reset.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_reset.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
 		},
 	"/scss/base/_typography.scss": {
 		"aP": 0,
@@ -294,6 +403,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/css/_typography.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
+		},
+	"/scss/layout/_footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_footer.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
+		},
+	"/scss/layout/_header.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/css/_header.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
@@ -310,6 +445,37 @@
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
+		},
+	"/scss/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/scss/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/scss/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/style.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
+		},
+	"/services.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/services.php",
+		"oF": 0
 		},
 	"/staff.php": {
 		"cB": 0,
