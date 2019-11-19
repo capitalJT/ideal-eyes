@@ -5,7 +5,7 @@
         <?php include("includes/head-tag-contents.php");?>
     </head>
 
-    <body>
+    <body class="<?php echo $PAGE_CLASS; ?>">
         <!-- start container -->
         <div id="container">
             <?php include("includes/header.php");?>
@@ -16,7 +16,7 @@
             <div class="row justify-content-center">
                 <div class="col-12">
                     <div class="image mb-3">
-                        <img class="d-block mx-auto" src="images/dog.jpg" alt="office dog">
+                        <img class="d-block mx-auto img-fluid" src="images/dog.jpg" alt="office dog">
                     </div>
                 </div>
 

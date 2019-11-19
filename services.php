@@ -5,16 +5,19 @@
         <?php include("includes/head-tag-contents.php");?>
     </head>
 
-    <body>
+    <body class="<?php echo $PAGE_CLASS; ?>">
         <!-- start container -->
         <div id="container">
 	        <?php include("includes/header.php");?>
 	        <?php include("includes/navigation.php");?>
 
+            <!-- start main_content -->
             <div class="main_content">
+                <!-- start image -->
                 <div class="image mb-3">
-                    <img class="d-block mx-auto" src="images/service.jpg" alt="service image" />
-                </div><!--end image-->
+                    <img class="d-block mx-auto img-fluid" src="images/service.jpg" alt="Service image" />
+                </div>
+                <!-- end image -->
 
                 <ul class="services_content">
                     <li>Eye exams</li>
@@ -27,7 +30,7 @@
                 </ul>
 
             </div>
-            <!--main_content-->
+            <!-- end main_content -->
         </div>
         <!-- end container -->
 

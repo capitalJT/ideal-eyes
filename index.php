@@ -5,7 +5,7 @@
 	    <?php include("includes/head-tag-contents.php");?>
     </head>
 
-    <body>
+    <body class="<?php echo $PAGE_CLASS; ?>">
         <!-- start container -->
         <div id="container">
 
@@ -20,7 +20,7 @@
 
                 <!-- start home_image -->
                 <div class="image mb-4">
-                    <img class="d-block mx-auto" src="images/home.jpg" alt="homepage image" />
+                    <img class="d-block mx-auto img-fluid" src="images/home.jpg" alt="Homepage image" />
                 </div>
                 <!-- end home_image -->
             </div>

@@ -31,11 +31,8 @@
   text-align: center;
   a {
     display: inline-block;
-    //margin: 0 auto;
-    //border: solid thin blue;
   }
   img{
-    //border: solid thin red;
     margin: 0 auto;
   }
 }
@@ -48,24 +45,6 @@
   padding-bottom:20px;
   font-size:16px;
   line-height:1.2em;
-}
-
-/* HOME PAGE IMAGE */
-.image{
-  //margin:auto;
-  //width:500px;
-  //overflow:hidden;
-  //border: solid thin green;
-}
-
-//.image p{
-//  padding-bottom:5px;
-//}
-
-.map{
-  margin:auto;
-  width:800px;
-  overflow:hidden;
 }
 
 /* CONTENT */
@@ -94,7 +73,7 @@
   padding:3px 0;
 }
 
-/* misc properties */
+/* Utility Classes */
 
 .clear{
   clear:both;
