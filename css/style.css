@@ -93,13 +93,6 @@ footer .badges .vsp {
   line-height: 1.2em;
 }
 
-/* HOME PAGE IMAGE */
-.map {
-  margin: auto;
-  width: 800px;
-  overflow: hidden;
-}
-
 /* CONTENT */
 .services_content li {
   display: inline;
@@ -125,7 +118,7 @@ footer .badges .vsp {
   padding: 3px 0;
 }
 
-/* misc properties */
+/* Utility Classes */
 .clear {
   clear: both;
 }

@@ -5,7 +5,7 @@
         <?php include("includes/head-tag-contents.php");?>
     </head>
 
-    <body>
+    <body class="<?php echo $PAGE_CLASS; ?>">
         <!-- start container -->
         <div id="container">
             <?php include("includes/header.php");?>
@@ -13,11 +13,10 @@
 
             <!-- start main_content -->
             <div class="main_content">
-                <div class="map">
-                    <img class="d-block mx-auto" src="images/parkingstar.jpg" width="800" height="620">
-                </div><!--end image-->
+                <img class="d-block mx-auto img-fluid" src="images/parkingstar.jpg" alt="Parking image map">
             </div>
-            <!-- main_content -->
+            <!-- end main_content -->
+
         </div>
         <!-- end container -->
         <?php include("includes/footer.php");?>

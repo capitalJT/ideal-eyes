@@ -5,7 +5,7 @@
         <?php include("includes/head-tag-contents.php");?>
     </head>
 
-    <body>
+    <body class="<?php echo $PAGE_CLASS; ?>">
         <!-- start container -->
         <div id="container">
             <?php include("includes/header.php");?>
@@ -16,7 +16,7 @@
 
                 <!-- start home_image -->
                 <div class="image mb-3">
-                    <img class="d-block mx-auto"  src="images/eyewear_03.jpg">
+                    <img class="d-block mx-auto" src="images/eyewear_03.jpg" alt="Eyewear Image">
                 </div>
                 <!-- end home_image -->
 
@@ -38,10 +38,10 @@
                         <li>Thierry Lasry</li>
                         <li>Zero G</li>
                     </ul>
-                    <div class="text-center">
-                        <img src="images/Instagram_Icon_Small.jpg" alt="Instagram Logo">
-                        <p class="title">Check out our Instagram page <a href="https://www.instagram.com/idealeyesoptometry/" target="_blank">@idealeyesoptometry</a></br>for the latest styles and new arrivals</p>
-                    </div>
+
+                    <img src="images/Instagram_Icon_Small.jpg" alt="Instagram Logo">
+                    <p class="title">Check out our Instagram page <a href="https://www.instagram.com/idealeyesoptometry/" target="_blank">@idealeyesoptometry</a></br>for the latest styles and new arrivals</p>
+
                 </div>
             </div>
             <!-- end main_content -->
